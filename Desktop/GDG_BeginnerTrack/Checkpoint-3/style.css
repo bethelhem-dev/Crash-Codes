@@ -1,0 +1,100 @@
+body {
+  background-image: url("pharo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#god {
+  background-color: rgb(6, 152, 152);
+  height: 120px;
+  display: block;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+}
+div::first-letter {
+  font-size: 4em;
+}
+#first {
+  width: 350px;
+  height: 200px;
+  background-color: silver;
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+#second {
+  width: 140px;
+  height: 310px;
+  background-color: beige;
+  position: fixed;
+  bottom: 30px;
+  right: 60px;
+}
+#parents {
+  border: 2px;
+}
+#parents > p {
+  background-color: tomato;
+}
+#parents ~ p {
+  background-color: rgb(196, 167, 222);
+}
+#parents + p {
+  background-color: goldenrod;
+}
+span {
+  background-color: tomato;
+  width: 100px;
+  height: 1000px;
+}
+.pagination {
+  text-align: center;
+}
+.pagination a {
+  color: black;
+  text-decoration: none;
+  padding: 8px 15px;
+  display: inline-block;
+}
+.pagination a.active {
+  background-color: rgb(40, 240, 40);
+  font: bold;
+  border-radius: 5px;
+}
+.pagination a:hover:not(.active) {
+  background-color: gray;
+  border-radius: 5px;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown button {
+  background-color: gray;
+  color: white;
+  padding: 10 px 15px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10 px 15 px;
+}
+.dropdown content {
+  background-color: rgb(216, 207, 207);
+  position: absolute;
+  min-width: 100px;
+  box-shadow: 2 px 2px 5px black;
+  display: none;
+}
+.dropdown:hover.content {
+  display: block;
+}
+.dropdown:hover button {
+  background-color: rgb(195, 195, 189);
+}
+.dropdown a:hover {
+  background-color: rgb(244, 240, 240);
+}
