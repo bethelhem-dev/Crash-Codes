@@ -38,7 +38,6 @@ int main() {
     for (int i = 0; i < 3; i++) {
         cin >> p.scores[i];
     }
-
     // Accept values for the 2D array (matrix)
     cout << "Enter values for a 2x2 matrix:" << endl;
     for (int i = 0; i < 2; i++) {
@@ -52,7 +51,6 @@ int main() {
     for (int i = 0; i < 3; i++) {
         sumOfMarks += p.scores[i];
     }
-
     // Output the values of the structure
     cout << "\n--- User Details ---\n";
     cout << "Name: " << p.name << endl;
@@ -96,6 +94,4 @@ int main() {
             total += p.matrix[i][j];
         }
     } cout<<"total "<<total;
-
-    return 0;
 }
