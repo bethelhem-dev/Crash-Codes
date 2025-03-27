@@ -21,7 +21,7 @@ struct student
     int rank;
 };
 void getdata(student students[], int sNum, int cNum){
-    for (int i = 0; i < sNum; i++) {
+    for (int i = 0; i < sNum; i++) {  // there is unneccessary loop so inorder to remove use this for (int i = 0; i < sNum - 1; i++)
         cout << "Enter student " << i + 1 << " ID and Name: ";
         cin >> students[i].id >> students[i].name;
         cout << "Enter " << cNum << " marks: ";
