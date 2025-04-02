@@ -1,0 +1,131 @@
+@media screen and (max-width: 600px) {
+  nav,
+  .headerh2,
+  aside,
+  section,
+  article {
+    width: 100;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("assets/Hero-section.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav ul {
+  list-style-type: none;
+  background-color: rgb(11, 81, 66);
+  color: white;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+.nav li {
+  float: left;
+}
+.nav a {
+  padding: 15px;
+  font-size: 20px;
+  margin-left: 160px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  display: block;
+}
+.headerh2 {
+  color: white;
+  position: relative;
+  text-align: right;
+  font-size: 30px;
+  margin-left: 730px;
+  margin-top: 120px;
+  margin-right: 100px;
+}
+button {
+  width: 160px;
+  height: 40px;
+  font-size: 15px;
+  background-color: rgb(11, 81, 66);
+  color: white;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1020px;
+}
+#firsth1 {
+  color: rgb(21, 98, 88);
+  font-size: 60px;
+  text-align: center;
+}
+.gallery {
+  display: inline-block;
+  margin-left: 100;
+  margin: 60px;
+}
+.sleegna {
+  background-color: rgba(232, 231, 231, 0.832);
+  display: block;
+  clear: both;
+  align-items: center;
+  gap: 20px;
+  padding-left: 80px;
+}
+.eraswon {
+  background-color: rgb(11, 81, 66);
+  color: white;
+  border-radius: 20px;
+  padding: 110px;
+  margin: 120px;
+  text-align: center;
+}
+#order {
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  width: 70px;
+  text-align: center;
+  margin: auto;
+}
+aside {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+section {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+article {
+  width: 40%;
+  float: left;
+  padding: 10px;
+}
+.yizezu {
+  margin-left: 250px;
+  margin-right: 170px;
+}
+.navfoot1 ul {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+.navfoot2 ul {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+footer {
+  background-color: rgb(11, 81, 66);
+}
